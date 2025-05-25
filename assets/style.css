@@ -66,8 +66,8 @@ p{
     padding: 40px 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    gap: 50px;
     text-align: center;
    }
 
@@ -105,7 +105,16 @@ p{
   form button:hover {
     background: #ddd;
   }
-
+  .footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding:0;
+  }
+  .p-footer{
+    line-height: 90px;
+    margin: 0;
+  }
   .map {
     width: 100%;
     max-width: 400px;
