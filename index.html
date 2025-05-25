@@ -74,31 +74,53 @@
 
         <h3>Meus projetos</h3>
         <div class="carousel">
-        <div class="carousel-track" id="track">
-            <a class="carousel-slide" href="https://raonilima54.github.io/Calculadora/" target="_blank">
-                <img src="assets/calculadora.png" alt="Calculadora">
-            </a>
-            <a class="carousel-slide" href="https://raonilima54.github.io/Kanban/" target="_blank">
-                <img src="assets/kanban.png" alt="Kanban">
-            </a>
-            <a class="carousel-slide" href="https://raonilima54.github.io/Lampada/" target="_blank">
-                <img src="assets/lampada.png" alt="lampada">
-            </a>
+            <div class="carousel-track" id="track">
+                <a class="carousel-slide" href="https://raonilima54.github.io/Calculadora/" target="_blank">
+                    <img src="assets/calculadora.png" alt="Calculadora">
+                </a>
+                <a class="carousel-slide" href="https://raonilima54.github.io/Kanban/" target="_blank">
+                    <img src="assets/kanban.png" alt="Kanban">
+                </a>
+                <a class="carousel-slide" href="https://raonilima54.github.io/Lampada/" target="_blank">
+                    <img src="assets/lampada.png" alt="lampada">
+                </a>
+            </div>
+            <div class="carousel-nav">
+                <button class="carousel-button" onclick="moveSlide(-1)">&#10094;</button>
+                <button class="carousel-button" onclick="moveSlide(1)">&#10095;</button>
+            </div>
         </div>
-        <div class="carousel-nav">
-            <button class="carousel-button" onclick="moveSlide(-1)">&#10094;</button>
-            <button class="carousel-button" onclick="moveSlide(1)">&#10095;</button>
-        </div>
-</div>
 
     </div>
 
-    <script src="assets/scripty.js"></script>
+    <footer>
+    <form id="contatoForm">
+      <h3>Entre em Contato</h3>
 
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
 
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.7589029915096!2d-46.655981284973875!3d-23.58061838466966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c89943bdf9%3A0x769fc86b7b80c36f!2sPaulista%20Avenue!5e0!3m2!1sen!2sbr!4v1617004379058!5m2!1sen!2sbr"
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe>
+    </div>
     <div class="footer">
        <p class="p-footer"> Developer by Raoni lima</p>
     </div>
+    </footer>
 
+    <script src="assets/scripty.js"></script>
 </body>
 </html>
