@@ -47,24 +47,49 @@
             As linguagens que conheço são:
         </p>
 
-        <ul class="list">
-            <li>Html</li>
-            <li>Css</li>
-            <li>Python</li>
-        </ul>
+        <div class="skill">
+            <div class="skill-name">HTML</div>
 
-        <h3>Meus projetos</h3>
-        <div class="carrossel">
-            <div class="slides">
-                <img src="assets/lanterna.png" alt="Lampada">
-                <img src="assets/calculadora.png" alt="calculadora">
-                <img src="https://via.placeholder.com/800x300?text=Slide+3" alt="Slide 3">
-            </div>
-            <div class="botoes">
-                <button id="prev">❮</button>
-                <button id="next">❯</button>
+            <div class="progress-bar">
+                <span class="progress html"></span>
             </div>
         </div>
+
+        <div class="skill">
+            <div class="skill-name">CSS</div>
+
+            <div class="progress-bar">
+                <span class="progress css"></span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-name">JAVASCRIPT</div>
+
+            <div class="progress-bar">
+                <span class="progress javascript"></span>
+            </div>
+            </div>
+
+
+        <h3>Meus projetos</h3>
+        <div class="carousel">
+        <div class="carousel-track" id="track">
+            <a class="carousel-slide" href="https://example.com/1" target="_blank">
+                <img src="assets/calculadora.png" alt="Imagem 1">
+            </a>
+            <a class="carousel-slide" href="https://raonilima54.github.io/Kanban/" target="kanban">
+                <img src="assets/kanban.png" alt="Imagem 2">
+            </a>
+            <a class="carousel-slide" href="https://raonilima54.github.io/Lampada/" target="lambada">
+                <img src="assets/lampada.png" alt="Imagem 3">
+            </a>
+        </div>
+        <div class="carousel-nav">
+            <button class="carousel-button" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="carousel-button" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+</div>
 
     </div>
 
