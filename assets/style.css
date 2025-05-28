@@ -196,12 +196,13 @@ p{
       display: block;
       height: 20px;
       border-radius: 20px;
-      background-color: #83dd83;
+      background-color: #21deff93;
     }
 
     .html { width: 80%; }
     .css { width: 50%; }
     .javascript { width: 30%; }
+    .pyhton {width:60%;}
 
 
 
